@@ -76,12 +76,8 @@ Each file in the `data` directory can be used as a rule in this format: `geosite
 
 ## Generate `dlc.dat` manually
 
-- Install `golang` and `git`
+- Install `golang` (version 1.21 or later recommended) and `git`
 - Clone project code: `git clone https://github.com/v2fly/domain-list-community.git`
 - Navigate to project root directory: `cd domain-list-community`
 - Run: `go run ./ --outputdir=/tmp/`
 - The generated `dlc.dat` will be in `/tmp/`
-
-## Personal notes
-
-> This is my personal fork for learning and local experimentation. I do not plan to submit PRs upstream from this fork. If you are looking for the original project, please visit [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community).
