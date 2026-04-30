@@ -24,6 +24,8 @@ Please report if you have any problems or questions.
 
 Each file in the `data` directory can be used as a rule in this format: `geosite:filename`.
 
+> **Personal note:** I use this config as my baseline. The outbound tags (Reject, Direct, Proxy-1, etc.) need to match whatever you have defined in your outbounds section.
+
 ```json
 "routing": {
   "domainStrategy": "IPIfNonMatch",
@@ -78,6 +80,4 @@ Each file in the `data` directory can be used as a rule in this format: `geosite
 
 - Install `golang` (version 1.21 or later recommended) and `git`
 - Clone project code: `git clone https://github.com/v2fly/domain-list-community.git`
-- Navigate to project root directory: `cd domain-list-community`
-- Run: `go run ./ --outputdir=/tmp/`
-- The generated `dlc.dat` will be in `/tmp/`
+- Navigate to proje
